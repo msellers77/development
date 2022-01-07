@@ -1,0 +1,82 @@
+/*
+* ua-newdash_custom.css
+* Sample CSS file to localize header of Degree Works responsive dashboard.
+*/
+
+/*
+ Change the background color here to match your brnding. 
+*/
+.jss151 {
+  height: 4rem;
+  display: flex;
+  border-bottom: 0.25rem solid #828a8f;
+  background-color: #9e1b32 !important;
+}
+
+.dashboard-body {
+    background-color: #e59494 !important;
+}
+
+header[class*='jss'] {background-color: #9e1b32 !important; }
+div[class*='headerbar-utility-bar'] {background-color: #9e1b32 !important; }
+
+
+/*jss-bWnmJUmi1189 headerbar-utility-bar themed*/
+
+/*
+ This changes the background of user profile area.
+ Use slightly a darker color to match your branding. 
+*/
+.jss18 {
+  height: 4rem;
+  border-bottom: 0.25rem solid #828a8f;
+  background-color: #f04b4b !important;
+}
+
+/*
+ This changes the background of hamburger menu button area.
+ Use the same color as profile area. 
+*/
+.jss12 {
+  height: 4rem;
+  z-index: 1500;
+  box-shadow: none;
+  border-bottom: 0.25rem solid #828a8f;
+  background-color: #f04b4b !important;
+}
+
+/*
+ This changes the background of hamburger menu button and profile area - Hover and selection.
+ Make them darker. 
+*/
+.jss74.focused {
+  outline: none;
+  box-shadow: inset 0 0 0 0.125rem #e13946 !important;
+}
+.jss74:hover {
+  background-color: #B11B27 !important;
+}
+.jss74.selected {
+  background-color: #A01823 !important;
+}
+
+/*
+ These are related Admin and Links menu items. 
+ Change the color to match your branding.
+*/
+.jss121 {
+  width: 12.5rem;
+  background-color: #555 !important;
+}
+
+.jss123 {
+  color: #FFFFFF !important;
+  height: auto;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  min-height: auto;
+  white-space: normal;
+}
+.jss123:hover {
+  background-color: #777 !important;
+}
