@@ -15,8 +15,14 @@
 
 header[class*='jss'] {background-color: #9e1b32 !important; }
 div[class*='headerbar-utility-bar'] {background-color: #9e1b32 !important; }
-
-/*jss-bWnmJUmi1189 headerbar-utility-bar themed*/
+div[class*='headerbar-page-link']{color: #FFF !important; }
+a[href*="worksheets"]{color: #FFF !important; }
+a[href*="exceptions"]{color: #FFF !important; }
+a[href*="plans"], a[tabindex*='0']{color: #FFF !important; }
+a[href*="exceptionManagement"]{color: #828a8f !important; }
+a[href*="templates"]{color: #828a8f !important; }
+a[href*="debug"]{color: #828a8f !important; }
+a[href*="theme"]{color: #828a8f !important; }
 
 /*
  This changes the background of user profile area.
